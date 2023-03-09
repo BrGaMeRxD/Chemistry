@@ -1,0 +1,65 @@
+:root {
+    font-family: IRSans;
+    font-size: 16px;
+    line-height: 24px;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+
+    --main-theme: hsl(0, 0%, 100%);
+    --sec-theme: hsl(14, 100%, 17%);
+    --radius: 0.4rem;
+}
+
+@font-face {
+    font-family: IRSans;
+    src: url("./IRSans.woff");
+}
+
+@font-face {
+    font-family: Lalezar;
+    src: url("./Lalezar.otf");
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+    font-family: 'IRSans';
+}
+
+main {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+ul,
+li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
