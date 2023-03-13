@@ -9,8 +9,8 @@
     -webkit-text-size-adjust: 100%;
 
     --main-theme: hsl(0, 0%, 100%);
-    --sec-theme: hsl(14, 100%, 17%);
-    --radius: 0.4rem;
+    --sec-theme: hsl(0, 0%, 0%);
+    --radius: 5px;
 }
 
 @font-face {
@@ -35,6 +35,7 @@ html {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
 }
 
 *,
@@ -62,4 +63,22 @@ li {
     list-style: none;
     padding: 0;
     margin: 0;
+}
+
+.btn_fill {
+    background: #000;
+    border-radius: 5px;
+    border: 1px solid #000;
+    color: white;
+    padding: 0.4em 1em;
+    cursor: pointer;
+    transition: all 200ms ease;
+    height: fit-content;
+    margin: auto 0;
+    font-size: 13px;
+}
+
+.btn_fill:hover {
+    background-color: #fff;
+    color: black;
 }
